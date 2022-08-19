@@ -241,7 +241,7 @@
                     <a href="#section-homepage-2" class="menu-item"><span class="toctree-expand"></span>User Manager</a>
                     <ul class="sub-menu">
                         <li class="menu-item">
-                            <a href="#section-user" class="menu-item">Create new User</a></li>
+                            <a href="#section-user" class="menu-item">Membuat User Baru</a></li>
                         <li class="menu-item">
                             <a href="#section-role" class="menu-item">Roles Manager</a></li> 
                         <li class="menu-item">
@@ -266,11 +266,11 @@
                     <a href="#section-report" class="menu-item"><span class="toctree-expand"></span>Reports </a>
                     <ul class="sub-menu">
                         <li class="menu-item ">
-                            <a href="#section-report" class="menu-item">Booking Reports</a></li>
+                            <a href="#section-report" class="menu-item">Laporan Pemesanan</a></li>
                         <li class="menu-item ">
-                            <a href="#setting-statistic" class="menu-item">Booking Statistic </a></li>
+                            <a href="#setting-statistic" class="menu-item">Statistik Pemesanan </a></li>
                         <li class="menu-item ">
-                            <a href="#section-contact" class="menu-item">Contact Submissions </a></li>
+                            <a href="#section-contact" class="menu-item">Kontak </a></li>
                         <li class="menu-item">
                             <a href="#section-log" class="menu-item">System Log Viewer</a></li>
                     </ul>
@@ -1069,7 +1069,7 @@
                                                 href="#section-contact" class="toc-backref">Building Home Page</a> 
                                         </h1>
                                             <h4>Contact Manager</h4>
-                                            <p>Semua email dari Kontak Halaman akan ditambahkan ke daftar ini, Admin dapat memeriksa dan menghubungi Pengguna dengan caranya</p>
+                                            <p>Semua email dari Halaman Kontak akan ditambahkan ke daftar ini, Admin dapat memeriksa dan menghubungi Pengguna dengan caranya</p>
                                             <p> Buka <strong>Report &gt; Contact Submissions</strong></p>
                                             <p>Mudah untuk Menghapus atau Mencari email </p>
                                             <p><img class="padding" src="images/user/contact.png"/></p>
@@ -2188,9 +2188,9 @@
                                             </h1>
                                             <h4>Dashboard > Users > All User </h4>
 
-                                            <p>Users are people who use services provided by customers and each user can have Role limitations. Customers can create, modify and delete users but the owner is the subscriber who is also the owner of these customers. To separate users among customers of one subscriber, user prefix is used.</p>
-                                            <p>1. Easy manager and create new user. </p>
-                                            <p>2. Change Password</p>
+                                            <p>Users adalah orang yang menggunakan layanan yang disediakan oleh pelanggan dan setiap user dapat memiliki Role limitations. Pelanggan dapat membuat, mengubah, dan menghapus users tetapi pemiliknya adalah pelanggan yang juga merupakan subscriber dari pelanggan tersebut. Untuk memisahkan users di antara pelanggan dari suatu subscriber, awalan user dapat digunakan.</p>
+                                            <p>1. Easy manager dan buat user baru. </p>
+                                            <p>2. Ubah Password</p>
                                             <p>&nbsp;</p>
                                             <p><img class="padding" src="images/user/user_mana.png"/></p>
 
@@ -2200,22 +2200,58 @@
                                         <section class="section document-section-item" id="section-verify">
                                             <h1><a href="#section-verify" class="toc-backref">Roles management</a>   </h1>
                                             <h4>1. Sending Request Verify</h4> 
-                                            <p>After become to Customer or Vendor Role, Admin can require your informations to verify you</p>
-                                            <p>From your Dash Board you can see the <strong>Verifications menu item</strong> </p>
-                                            <p>Click to <strong>Update Verification data</strong> button to open form and input the required information</p>
-                                            <p>If you are <strong>Vendor Role</strong>, clients can open your Profile and see you are the trusted guys </p>
+                                            <p>Setelah menjadi Pelanggan atau Vendor Role, Admin dapat meminta informasi Anda untuk memverifikasi Anda</p>
+                                            <p>Dari dashboard Anda, Anda dapat melihat <strong>Verifications menu item</strong> </p>
+                                            <p>Klik <strong>Update Verification data</strong> untuk membuka formulir dan memasukkan informasi yang diperlukan</p>
+                                            <p>Jika Anda <strong>Vendor Role</strong>, klien dapat membuka Profil Anda dan melihat Anda adalah orang yang tepercaya </p>
                                             <img class="padding" src="changelog/1.5/verifications.png">
                                              <h4>2. Verification New Request</h4>
-                                             <p>To verify new request, go to <strong>User > Verification Request</strong>, the highlight number will be shown whenever have new requests </p>
-                                             <p>- Click to <strong>View request button</strong> to open a Request </p>
-                                             <p>- By some means, after receiving the required information, you can call directly or email manually to confirm with Vendor.</p>
-                                             <p>- The last Step, confirm to the valid information and <strong>Save</strong></p>
+                                             <p>Untuk memverifikasi permintaan baru, buka <strong>User > Verification Request</strong>, nomor yang disorot akan ditampilkan setiap kali ada permintaan baru </p>
+                                             <p>- Klik <strong>View request button</strong> untuk membuka Permintaan </p>
+                                             <p>- Dengan melalui beberapa cara, setelah menerima informasi yang diperlukan, Anda dapat menelepon langsung atau mengirim email secara manual untuk mengonfirmasi dengan Vendor.</p>
+                                             <p>- Langkah terakhir, konfirmasi informasi yang valid dan <strong>Save</strong></p>
                                             <img src="changelog/1.5/admin-verify.png">
                                              <h4>3. Verify Configs </h4>
                                              <p><strong>Dashboard > Users > Role Manager </strong></p>
 
                                             <p><img class="padding" src="images/user/verify.png"/></p>
                                         </section>
+
+
+                                        <section class="section document-section-item" id="section-role">
+                                            <h1><a href="#section-role" class="toc-backref">Roles management</a>   </h1>
+                                            <h4>Dashboard > Users > Role Manager </h4>
+                                            <strong>Create New Role </strong>
+                                            <p> Dalam panel ini terdapat Role listing, Admin dapat membuat Role baru dengan mudah, hanya perlu memasukkan nama.</p>
+                                            <p><img class="padding" src="images/user/role.png"/></p> 
+
+                                            <p>Setelah membuat nama ROLE, lihat tombol
+                                                <strong>Permission Matrix</strong> </p>
+                                            <p><strong>Check</strong> Izin yang ingin Anda bagikan ke User Role
+                                            </p>
+                                            <p><img class="padding" src="images/user/matrix.png"/></p>
+
+                                        </section>
+                                      
+                                        <section class="section document-section-item" id="section-subscrible">
+                                            <h1>
+                                                <a href="#section-subscrible" class="toc-backref">Subscribles management</a>
+                                                <a class="headerlink" href="#section-subscrible" >¶</a>
+                                            </h1>
+                                            <h4>Dashboard > Users > Subscribers </h4>
+                                            <p>Anda dapat membuat user secara langsung di control panel </p>
+                                            <p> 1: Pada panel Kiri Anda dapat melihat formulir yang digunakan untuk membuat subcrible baru =>
+                                                <strong> Add new Subscrible</strong></p>
+                                            <p> Hanya perlu memasukkan nama, alamat email, kemudian <strong>SAVE</strong>
+                                            </p>
+                                            <p> 2: Di Panel Kanan adalah list Subscribe, Anda dapat mengelolanya dengan mudah, bahkan EXPORT data untuk backup.</p>
+                                            <p><img class="padding" src="images/user/subcrible.png"/></p>
+
+                                            <h2></h2>
+                                        </section>
+
+                                    </ul>
+                                </section>
 
 
                                         <section class="section document-section-item" id="section-role">
@@ -2253,64 +2289,57 @@
                                     </ul>
                                 </section>
                                 <section class="section document-section-item" id="section-multi-lang"><h1><a
-                                        href="#section-multi-lang" class="toc-backref">Multi-languages
-                                </a>
-                                    <a class="headerlink" href="#section-multi-lang" >¶</a>
-                                </h1>
+                                    href="#section-multi-lang" class="toc-backref">Multi-languages
+                            </a>
+                                <a class="headerlink" href="#section-multi-lang" >¶</a>
+                            </h1>
 
-                                    <p>From version 1.2, our Booking Core system is ready for multi-language features, which means you can
-                                        easily use multiple languages on your website. Here are some guidelines:</p>
-                                    <h4 id="enable-multi"><a href="#enable-multi">1. Enable Multi-Language</a></h4>
-                                    <p>Firstly, Buka <strong><em>Dashboard -&gt; Settings -&gt; General Settings ->
-                                        Language </em></strong>:</p>
-                                    <p>1. <strong>Select Main language:</strong> This is an important step for building your website
-                                        content. Because sub-languages are only recompiled from the main language, if you are using EN as
-                                        the primary language and suddenly switch to JA, your website will be failed. Because no main-content
-                                        of JA to use.</p>
-                                    <p>2. The next step, <strong>Enable Multi languages:</strong> Check to the box to Enable Multi-languages
-                                        for site</p>
-                                    <p><img src="images/opt/lang-opt.png" alt="Multi-language for Tour"/></p>
-                                    <p>3. After activate the Multi-languages you will see your website has <strong>Language bar</strong></p>
-                                    <p>&nbsp;</p>
+                                <p> Dari versi 1.2, sistem Booking Core kami mendukung untuk fitur multi-bahasa, sehingga Anda dapat dengan mudah menggunakan beberapa bahasa di situs web Anda. Berikut beberapa pedomannya:</p>
+                                <h4 id="enable-multi"><a href="#enable-multi">1. Enable Multi-Language</a></h4>
+                                <p>Pertama, arahkan <strong><em>Dashboard -&gt; Settings -&gt; General Settings ->
+                                    Language </em></strong>:</p>
+                                <p>1. <strong>Select Main language:</strong> Ini adalah langkah penting untuk membangun konten situs web Anda. Karena sub-bahasa hanya dikompilasi ulang dari bahasa utama, jika Anda menggunakan EN sebagai bahasa utama dan tiba-tiba beralih ke JA, situs web Anda akan gagal. Karena tidak ada konten utama JA yang digunakan.</p>
+                                <p>2. Langkah selanjutnya, <strong>Enable Multi languages:</strong> Centang kotak Enable Multi-languages
+                                    untuk situs</p>
+                                <p><img src="images/opt/lang-opt.png" alt="Multi-language for Tour"/></p>
+                                <p>3. Setelah mengaktifkan Multi-languages, Anda akan melihat situs web Anda terdapat tampilan <strong>Language bar</strong></p>
+                                <p>&nbsp;</p>
 
-                                    <h4 id="start-multi"><a href="#start-multi">2. Start translate for site</a></h4>
-                                    <p>We will start the example for tour, there are 3 steps to complete: <strong>Tour content, tour
-                                        attribute, and Tour Block on homepage</strong></p>
+                                <h4 id="start-multi"><a href="#start-multi">2. Start translate for site</a></h4>
+                                <p> Kami akan memberikan contoh untuk tour, ada 3 langkah yang harus diselesaikan: <strong>Tour content, tour
+                                    attribute, and Tour Block on homepage</strong></p>
 
-                                    <p><strong>1. Tour Content</strong></p>
-                                    <p>The language bar only appears when updating an existed tour, which means you won't be able to create
-                                        a language from the first tour creation.</p>
-                                    <p>This is the Tour content of the sub-language (Japanese), there will be some hidden content such as
-                                        Images sections(Featured image, Gallery, video ..), the price section ..that have been set in main
-                                        language.</p>
-                                    <p>In sub-languages, you can only translate content that is textual</p>
-                                    <p><img src="images/tool/lang-tour.png" alt="Multi-language for Tour"/></p>
-                                    <p>&nbsp;</p>
+                                <p><strong>1. Tour Content</strong></p>
+                                <p>Bar bahasa hanya muncul saat memperbarui tour yang ada, sehingga Anda tidak dapat membuat bahasa dari pembuatan tour pertama.</p>
+                                <p>Ini adalah konten Tour dari sub-bahasa (Jepang), akan ada beberapa konten tersembunyi seperti Images sections (Featured image, Gallery, video ..), the price section ..yang telah diatur dalam bahasa utama.</p>
+                                <p>Dalam sub-bahasa, Anda hanya dapat menerjemahkan teks</p>
+                                <p><img src="images/tool/lang-tour.png" alt="Multi-language for Tour"/></p>
+                                <p>&nbsp;</p>
 
-                                    <p><strong>2. Tour Attributes</strong></p>
-                                    <p>The law of multilingual is only able to translate the available content, as well this is the Tour's
-                                        Attribute Management Part</p>
-                                    <p>In the Tour Attributes, there are 2 things need to clearly:</p>
-                                    <p><i>1. Multi-language for Attributes</i></p>
-                                    <p> - Click to edit button or Name of Attribute to go to edit page </p>
-                                    <p> - Navigate to the Sub-Language tab and do translate</p>
-                                    <p><i>2. Multi-language for Term's attribute</i></p>
-                                    <p> - Click to <strong>Term Manager</strong> of duration respectively to view list term</p>
-                                    <p> - Click to the Term's name to edit it</p>
-                                    <p> - Navigate to the Sub-Language tab and do translate</p>
-                                    <p><img src="images/tool/lang-attr.png" alt="Multi-language for Tour"/></p>
-                                    <p>&nbsp;</p>
+                                <p><strong>2. Tour Attributes</strong></p>
+                                <p>Pengaturan multilanguage hanya dapat menerjemahkan konten yang tersedia, hal tersebut merupakan Tour's
+                                    Attribute Management Part</p>
+                                <p>Dalam Tour Attributes, terdapat 2 hal yang perlu diketahui:</p>
+                                <p><i>1. Multi-language for Attributes</i></p>
+                                <p> - Klik tombol edit atau Name of Attribute untuk menuju ke halaman edit</p>
+                                <p> - Arahkan ke tab Sub-Language dan terjemahkan</p>
+                                <p><i>2. Multi-language for Term's attribute</i></p>
+                                <p> - Klik <strong>Term Manager</strong> untuk melihat daftar istilah</p>
+                                <p> - Klik Term's name untuk mengubah</p>
+                                <p> - Arahkan ke tab Sub-Language dan terjemahkan</p>
+                                <p><img src="images/tool/lang-attr.png" alt="Multi-language for Tour"/></p>
+                                <p>&nbsp;</p>
 
-                                    <p><strong>3. Tour Block of Homepage</strong></p>
-                                    <p><img src="images/tool/lang-tour-block.png" alt="Multi-language for Tour"/></p>
-                                    <p>&nbsp;</p>
+                                <p><strong>3. Tour Block of Homepage</strong></p>
+                                <p><img src="images/tool/lang-tour-block.png" alt="Multi-language for Tour"/></p>
+                                <p>&nbsp;</p>
 
-                                    <p><strong>4. Translate Booking Core script</strong> <a
-                                            href="http://docs.bookingcore.org/#section-translate" target="_blank">click here</a> to know..
-                                    </p>
+                                <p><strong>4. Translate Booking Core script</strong> <a
+                                        href="http://docs.bookingcore.org/#section-translate" target="_blank">klik disini</a> untuk mengetahui..
+                                </p>
 
 
-                                </section>
+                            </section>
                                 <section class="section document-section-item" id="section-report">
                                     <ul class="sub-menu">
                                         <section class="section document-section-item" id="section-report">
@@ -2320,9 +2349,9 @@
                                             <h4>Dashboard &gt; Report &gt; Booking Report </h4>
 
                                             <p>
-                                                <strong> On this Panel</strong> is list Booking , you can manage it easy, do
-                                                <strong>Bulk Action</strong>: Mark as Completed, Mark as Processing, Mark as Confirmed, Mark as Canceled, Mark as Paid, Mark as UnPaid, DELETE Booking or
-                                                <strong>Search</strong> by booking name or owner booking tour</p>
+                                                <strong> On this Panel</strong> adalah list Booking , Anda dapat mengelolanya dengan mudah, lakukan
+                                                <strong>Bulk Action</strong>: Mark as Completed, Mark as Processing, Mark as Confirmed, Mark as Canceled, Mark as Paid, Mark as UnPaid, DELETE Booking atau
+                                                <strong>Search</strong> dengan nama pemesanan atau pemilik pemesanan tour</p>
                                             <p><img src="images/report.png" alt=""/></p>
 
                                         </section>
@@ -2332,7 +2361,7 @@
                                             </h1>
                                             <p><img src="images/statistic.png" alt=""/></p>
                                             <h4>Earning statistics Management</h4>
-                                            <p>On this panel you can manage your Earning easier</p>
+                                            <p>Di panel ini Anda dapat mengelola Penghasilan Anda dengan lebih mudah</p>
                                             <p><img src="images/booking_static.png" alt=""/></p>
 
                                         </section>
@@ -2340,8 +2369,8 @@
                                                 href="#section-log" class="toc-backref">System Logs</a>
                                             <a class="headerlink" href="#section-log" >¶</a>
                                         </h1>
-                                            <p>Log data is one of the most valuable assets in IT security intelligence. Logs can give you a general overview of your system and let you gain powerful insights into its vulnerabilities.</p>
-                                            <p>Specialized event log management tools will make the IT admin’s life easier.</p>
+                                        <p>Data log adalah salah satu aset paling berharga dalam keamanan IT. Log dapat memberi Anda gambaran umum tentang sistem Anda dan memungkinkan Anda mendapatkan wawasan tentang kerentanannya.</p>
+                                        <p>Adanya event log management tools membuat hidup admin IT lebih mudah.</p>
                                             <p>
                                                 <img src="images/tool/logs.png" alt=""/></p>
 
